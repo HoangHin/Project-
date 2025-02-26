@@ -1,0 +1,212 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-nemu-item{
+    padding-left: 20px;
+    font-size: 18px;
+}
+.nav-nemu{
+    display: flex;
+
+
+}
+.nav-nemu-item{
+    font-size: 30px;
+}
+.head-root{
+    display: flex;
+    justify-content: space-evenly
+
+}
+body{
+    width: 100%;
+}
+.head{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 680px;
+    font-size: 30px;
+}
+.chu-tren{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.chu{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.chu-mon-tren{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: green;
+}
+.chu-giua{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-bottom: 20px;
+    font-weight: bold   ;
+}
+.chu-mon{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: green;
+    padding-bottom: 20px;
+}
+.chu-mon_h{
+    padding-top:30px;
+    padding-bottom: 30px;
+    width: 50%;
+    display: flex;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chungan{
+    width: 70%;
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nut{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(87, 168, 87);
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+.nut-tren{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(87, 168, 87);
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+.anh-img{
+    padding-left: 250px;
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+}
+.anh{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+}
+.img{
+    display: flex;
+    padding-top: 80px;
+}
+.main  {
+    display: flex;
+    margin-left: 40px;
+    width: 80%;
+}
+#hien{
+    text-decoration: none;
+    color: white;
+}
+.head-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.anhchung{
+    width: 100px;
+}
+.head-chu-1{
+    color: green;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.head-chu-2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.nemu-3item-root{
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.nemu-3item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 200px;
+}
+.head-giua1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.head-giua2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    width: 65%;
+    margin-top: 10px;
+    text-align: center;
+}
+.icon{
+    width: 20px;
+}
+.img-giua{
+    width: 150px;
+}
+.head-root-1{
+    margin-top: 20px;
+    width: 170px;
+    border: 3px none solid;
+    box-shadow: 1.5px 1.5px 0.5px 0.5px gray;
+    border-radius: 6%;
+}
+.head-root-bentrong{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.div-chung-anh{
+    margin-top: 20px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.head-root-giua-1{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.head-root-giua-2{
+    font-size: 15px;
+    color: gray;
+    margin-top: 5px;
+}
+.head-root-giua-3{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.head-root-giua-4{
+    display: flex;
+    justify-content: flex-end;
+}
+.icon{
+    border-radius: 30%;
+    margin-bottom: -5px;
+    width: 25px;
+}
