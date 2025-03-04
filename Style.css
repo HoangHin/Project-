@@ -164,6 +164,7 @@ body{
 }
 .img-giua{
     width: 150px;
+    margin-top: 20px;
 }
 .head-root-1{
     margin-top: 20px;
@@ -264,5 +265,37 @@ body{
 .image-center{
     display: flex;
   flex-wrap: wrap;
-  
+}
+.iphone-main{
+    display: flex;
+    justify-content: center;
+}
+.iphone-main-font{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    margin-top: 150px;
+}
+.iphone{
+    width: 450px;
+}
+.iphone-main1{
+    color: green;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.iphone-main2{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.iphone-main3{
+    font-size: 20px;
+    color: gray;
+    width: 500px;
+    margin-bottom: 20px;
+}
+.App-iphone{
+    width: 150px;
+    margin-right: 20px;
 }
