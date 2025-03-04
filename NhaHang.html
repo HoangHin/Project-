@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nhà hàng cắt tóc</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./jv.js"></script>
 </head>
 <body>
     <header>
@@ -29,13 +30,13 @@
     <main>
         <div class="main">
             <div class="img">
-                <img class="anh-img" src="https://lt-frontend.hoanglong.dev/assets/img/home.png" alt="anh">
+                <img  class="anh-img"  src="https://lt-frontend.hoanglong.dev/assets/img/home.png" alt="anh">
             </div>
             <div class="chu-tren">
-                <div class="chu-mon-tren">
+                <div class="chu-mon-tren" id="home-title">
                     Tasty food
                 </div>
-                <div class="chu-giua">
+                <div class="chu-giua" id="hien-title">
                     <br>
                         Try the best food of the week.     
                 </div>          
@@ -65,11 +66,11 @@
                  </div>
             </div>
             <div class="img">
-                <img class="anh" src="https://lt-frontend.hoanglong.dev/assets/img/about.jpg" alt="anh">
+                <img class="anh" id="anh-title" src="https://lt-frontend.hoanglong.dev/assets/img/about.jpg" alt="anh">
             </div>
         </div>
         <!-- ABOUT -->
-        <div class="head-3">
+        <div class="head-3" >
             <div class="head-chu-1">Offering</div>
             <div class="head-chu-2">Our amazing services</div>
         </div>
@@ -91,21 +92,23 @@
             </div>
         </div>
         <!-- ABOUTTTTT -->
+         <div class="image-center"id=".menu__container">
+         </div>
         <div class="head-3">
             <div class="head-chu-1">Special</div>
             <div class="head-chu-2">Menu of the week</div>
         </div>
-        <div class="div-chung-anh">
-            <div class="head-root-1">
-                <div class="head-root-bentrong">
-                    <img src="https://lt-frontend.hoanglong.dev/assets/img/plate1.png" alt="#" class="img-giua">
-                    <div class="head-root-giua-1">Barbecue salad</div>
+        <div class="div-chung-anh" >
+            <div class="head-root-1" >
+                <div class="head-root-bentrong" >
+                    <img src="https://lt-frontend.hoanglong.dev/assets/img/plate1.png" alt="#" class="img-giua"  >
+                    <div class="head-root-giua-1" >Barbecue salad</div>
                     <div class="head-root-giua-2">Delicious dish</div>
                     <div class="head-root-giua-3">$22.00</div>
                 </div>
                 <div class="head-root-giua-4">
                     <a href="#">
-                        <img src="https://play-lh.googleusercontent.com/ywS4a4Bgndh-i9rL6yeX8niwqja2Mayc7seCWHrPRrWncEgPmn1Kklcx-Q5Zj0UnRQ=w480-h960-rw" alt="#" class="icon">
+                        <img src="https://play-lh.googleusercontent.com/ywS4a4Bgndh-i9rL6yeX8niwqja2Mayc7seCWHrPRrWncEgPmn1Kklcx-Q5Zj0UnRQ=w480-h960-rw" alt="#" class="icon" >
                     </a>
                 </div>
             </div>
@@ -141,7 +144,46 @@
 
     </main>
     <footer>
-
+        <div class="footer-bottow">
+            <div class="footer-nav-center">
+                <a class="footer" href="#">Tasty Food</a>
+                <div class="footer-duoi"> Restaurant</div>
+                <div class="image-footer">
+                    <a class="logo-footer" href="#">
+                        <img src="https://cdn-icons.flaticon.com/svg/6422/6422265.svg?token=exp=1741074702~hmac=15cf159c0df334d1cfabf5524691d5cf" alt="#" class="anh-footer">
+                    </a>                   
+                    <a class="logo-footer" href="#">
+                        <img src="https://cdn-icons.flaticon.com/svg/6422/6422215.svg?token=exp=1741073597~hmac=981c9212b486b9042e57fa290c794817" alt="#" class="anh-footer">
+                    </a>                   
+                    <a class="logo-footer" href="#">
+                        <img src="https://cdn-icons.flaticon.com/svg/6422/6422210.svg?token=exp=1741073627~hmac=eef159bcad4bc85a8d6fc158add75df1" alt="#" class="anh-footer">
+                    </a>                   
+                </div>
+            </div>
+            <div class="footer-nav-center-style" >
+                <p class="footer-root">Services</p>
+                <a href="#" class="footer-link">Delivery</a>
+                <a href="#" class="footer-link">Pricing</a>
+                <a href="#" class="footer-link">Fast food</a>
+                <a href="#" class="footer-link">Reserve your spot</a>
+            </div>
+            <div class="footer-nav-center-style" >
+                <p class="footer-root">Information</p>
+                <a href="#" class="footer-link">Event</a>
+                <a href="#" class="footer-link">Contact us</a>
+                <a href="#" class="footer-link">Privacy policy </a>
+                <a href="#" class="footer-link">Terms of services</a>
+            </div>
+            <div class="footer-nav-center-style" >
+                <p class="footer-root">Adress</p>
+                <a href="#" class="footer-link">Lima - Peru</a>
+                <a href="#" class="footer-link">Jr Union #999</a>
+                <a href="#" class="footer-link">999 - 888 - 777</a>
+                <a href="#" class="footer-link">tastyfood@email.com</a>
+            </div>
+        </div>
+        <div class="footer-root-1"> © 2020 Bedimcode. All right reserved</div>
     </footer>
+    
 </body>
 </html>
